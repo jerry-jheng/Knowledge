@@ -12,8 +12,6 @@ geth --datadir ./chaindata init poa.json
 ```
 
 ### 3. 匯入 miner keystore
-參考 [IFC專案安裝與開發](http://192.168.1.88:10080/Infinitechain/guides/src/branch/master/IFC%E5%B0%88%E6%A1%88%E5%AE%89%E8%A3%9D%E8%88%87%E9%96%8B%E7%99%BC.md) 匯入 miner keystore，並將 coinbase 改為 miner address
-
 ```
 geth --dev account import key.txt --datadir ./chaindata
 ```
